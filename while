@@ -1,0 +1,21 @@
+vi = float(input(" Ingrese la velocidad inicial: "))
+while(vi<0):
+
+    print(" ERROR USTED INGRESO UN NUMERO MENOR A 0.")
+    vi = float(input(" Ingrese la velocidad inicial: "))
+
+vf = float(input(" Ingrese la velocidad final: "))
+while(vf<0):
+
+    print(" ERROR USTED INGRESO UN NUMERO MENOR A 0.")
+    vf = float(input(" Ingrese la velocidad final: "))
+
+t = float(input(" Ingrese el tiempo: "))
+while(t<=0):
+
+    print(" ERROR USTED INGRESO UN NUMERO MENOR O IGUAL A 0.")
+    t = float(input(" Ingrese el tiempo: "))
+
+a = (vf-vi)/t
+
+print(" La aceleracion es: ",a)
