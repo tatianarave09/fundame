@@ -1,0 +1,11 @@
+Proceso NprimerosNumeros
+	definir total,x Como Entero
+	definir suma,n Como Real
+	escribir"La cantidad de numeros que se desean sumar"
+	leer n
+	suma=suma + n
+	x = x + 1
+FinMientras
+escribir"La suma de los <total,> numeros es:,suma"
+	
+FinProceso
