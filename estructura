@@ -1,0 +1,15 @@
+Proceso Estructura
+	  contador <- 0
+	  Leer numero
+		Mientras numero > 0 Hacer
+		  
+	     leer numero
+			contador <- contador + 1
+		FinMientras
+		
+		Mientras numero > 0 Hacer
+			
+			EScribir"El numero de enteros positivos es contador"
+			
+		FinMientras
+FinProceso
