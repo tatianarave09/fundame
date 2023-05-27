@@ -1,0 +1,16 @@
+Proceso CosteLlamada
+	
+	Escribir"Introduce la duracion de la llamada en segundos:"
+	leer duracion 
+	
+	pasos <- duracion/12+1
+	
+	coste_inicial<-10
+	coste_adiccional <-(0, pasos-5)*5
+	coste_total<- coste_inicial + coste_adiccional
+	
+	Escribir "El coste total de la llamada es:", coste_total,"centimos."
+	
+	
+	
+FinProceso
