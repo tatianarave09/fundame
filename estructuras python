@@ -1,0 +1,9 @@
+
+if __name__ == '__main__':
+	contador = 0
+	numero = int(input())
+while numero>0:
+	numero = int(input(""))
+	contador = contador+1
+while numero>0:
+	print("El numero de enteros positivos es contador")
