@@ -1,0 +1,23 @@
+Proceso CalcularMedia
+	Definir suma, contador, numero Como Real
+	
+	suma <-0
+	contador <-0 
+	
+	Escribir "Introduzca una serie de numeros positivos (introduzca 0 para terminar):"
+	
+	Leer numero
+	
+	Mientras numero <> 0 Hacer Si numero > 0 Entonces suma <- suma + numero contador <-contador +1 
+		leer numero 
+		
+		Si contador = 0 Entonces
+			Escribir "No hay datos para calcular la media"
+		SiNo
+			Escribir "La media es:", suma/ contador
+		FinSi
+		
+		FinSi
+	
+	
+FinProceso
