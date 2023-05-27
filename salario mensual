@@ -1,0 +1,18 @@
+Proceso SalarioMensual
+	//Solicitamos al usuario las horas trabajadas y el precio por hora 
+	Escribir "Introduzca el numero de horas trabajadas en una semana;"
+	leer horas
+	Escribir "Introduzca el precio por hora:"
+	leer precio 
+	
+	// calculamos el salario semanal si horas <= 40 entonces salario_semanal = horas*precio SiNo
+	
+	
+	//salario_semanal = 40 precio +(horas-40) precio * 1.5 
+	
+	//calculamos el salario mensual multiplicando el salario semanal por 4 salario_mensual=salario_semanal*4
+	
+	//Mostramos el salario mensual al usuario 
+	Escribir "el salario mensual es:"+ salario_mensual
+ 	
+FinProceso
