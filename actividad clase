@@ -1,0 +1,23 @@
+# Enunciado: Hallar la superficie de un cuadrado leyendo por teclado el valor de su lado
+# Desarrollado por: TATIANA RAVE
+# Fecha: 08/03/23
+# Version: 1.0
+
+v_ladCua = input("Digite por favor el valor de lado  :  ") # Lectura
+v_ladCua = int(v_ladCua) # Conversion de texto a entero
+
+
+# Procesos
+v_areCua = v_ladCua * v_ladCua # Calcular el area del cuadrado
+
+# Salidas de respuestas
+
+print ("Primera salida. POR SEPARADO , ")
+print("El area del cuadrado es  :  " )
+print (v_areCua)
+ 
+print("Segunda salida. Concatenando cadenas , ")
+print("El area del cuadrado es : ",v_areCua)
+
+print ("Tercera salida. Concatenando cadena con conversion texto de la variable , ")
+print("El area del cuadrado es : "+str(v_areCua))
