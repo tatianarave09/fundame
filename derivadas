@@ -1,0 +1,19 @@
+def calcular_limite(x):
+    # Encontrar la derivada
+    derivada = -4*x - 7
+    
+    # Calcular el límite
+    limite = derivada.subs(h, 0)
+    
+    # Imprimir los resultados
+    print(f"La derivada de y es: {derivada}")
+    print(f"El límite de y cuando h se acerca a cero es: {limite}")
+
+# Calcular el límite cuando x=1
+calcular_limite(1)
+
+# Calcular el límite cuando x=2
+calcular_limite(2)
+
+# Calcular el límite cuando x=0
+calcular_limite(0)
