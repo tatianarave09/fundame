@@ -1,0 +1,21 @@
+Proceso SalarioPorHoras
+	// Declaracion de variables 
+	Definir nombre Como Caracter
+	Definir horas_trabajadas,salario_hora,impuestos,salario_bruto,impuestos_pagar,salario_neto Como Real
+	// Pedir datos al usuario 
+	Escribir 'Ingrese el nombre del trabajador:'
+	Leer nombre
+	Escribir 'Ingrese el numero de horas trabajadas:'
+	Leer horas_trabajadas
+	Escribir 'Ingrese el porcentaje de impuestos a pagar (%):'
+	Leer impuestos
+	Escribir 'Ingrese el salario por hora del trabajor:'
+	Leer salario_hora
+	// Calcular salario bruto salario_bruto = horas_trabajadas * salario_hora 
+	// Calcular impuestos a pagar impuestos_pagar = (salario_bruto*impuestos)/100
+	// Mostrar resultados al usuario 
+	Escribir ''
+	Escribir 'Salario bruto de',nombre,':$, salario_bruto'
+	Escribir 'Impuestos a pagar:$',impuestos_pagar
+	Escribir 'Salario neto de ',nombre,':$',salario_neto
+FinProceso
